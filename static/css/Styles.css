@@ -1,19 +1,17 @@
-#filter-header
+#filter-button
 {
-  position: relative;
-  top: 100px;
-  left: 300px;
+  text-align: center;
+  padding: 45px;
+  margin-left: 50px !important;
+}
+#button-header
+{
+  margin: auto;
 }
 
- #main-button
- {
-   padding: 20px;
-   width: 100%
- }
-
- #main-button-text
- {
-   font-family: 'Poppins', sans-serif;
-   font-weight: 500;
-   letter-spacing: 3px;
- }
+#button-content
+{
+  font-size: 20px;
+  line-height: 0px;
+  margin: 0 !important;
+}
