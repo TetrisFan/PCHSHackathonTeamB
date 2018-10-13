@@ -1,16 +1,14 @@
-#filter-button
-{
+#filter-button {
   text-align: center;
   padding: 45px;
   margin-left: 50px !important;
 }
-#button-header
-{
+
+#button-header {
   margin: auto;
 }
 
-#button-content
-{
+#button-content {
   font-size: 20px;
   line-height: 0px;
   margin: 0 !important;
