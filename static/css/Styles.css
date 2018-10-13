@@ -1,6 +1,19 @@
+#filter-header
+{
+  position: relative;
+  top: 100px;
+  left: 300px;
+}
+
  #main-button
  {
+   padding: 20px;
+   width: 100%
+ }
+
+ #main-button-text
+ {
    font-family: 'Poppins', sans-serif;
-   font-weight: 700;
-   text-align: center;
+   font-weight: 500;
+   letter-spacing: 3px;
  }
