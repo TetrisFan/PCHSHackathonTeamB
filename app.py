@@ -6,7 +6,6 @@ app.config['MYSQL_DATABASE_DB'] = 'WorkVisaJobSearch'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 app.config['MYSQL_DATABASE_USER'] = 'root'
 app.config['MYSQL_DATABASE_PASSWORD'] = 'koolkid96'
-app = Flask(__name__)
 
 sql = MySQL(app)
 sql.init_app(app)
