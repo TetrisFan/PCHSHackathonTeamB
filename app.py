@@ -24,7 +24,7 @@ def filter():
 def postJob():
     cursor = sql.connect().cursor()
     cursor.execute("SELECT postDate FROM Dummy")
-    dates = (row[0] for row in cursor.fetchAll())
+    dates = [row[0] for row in cursor.fetchall()]
     return str(dates) + str(type(dates[0]))
 
 
