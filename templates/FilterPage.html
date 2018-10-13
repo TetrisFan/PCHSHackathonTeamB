@@ -2,26 +2,109 @@
 <html>
   <head>
     <style>
-      table {
+      body {
         width: 100%;
-        height: 50%
-        background: #ffb311
-
+        height: 100%;
+        background-color: #ffa311;
+        background-image: linear-gradient(to right, #7c0a9b , #fc1919);
       }
-      .categories {
-        background-color: white;
-        font-family: 'sans-serif';
-        color: blue;
+      button {
+        background: none;
         border: none;
+        outline: none;
+      }
+      section {
+        margin: auto;
+        width: 90%;
+        background-color: white;
+        border-radius: 206.5px;
+      }
+      .Filters {
+        font-family: "Optima";
+        font-size: 24px;
+        width: 50%;
+      }
+      select {
+        width: 90%;
+        background-color: #e6d6ff;
+        border: none;
+        font-size: 20px;
+        font-family: "Optima";
+        outline: none;
+      }
+      input {
+        height: 24px;
+        width: 90%;
+        background-color: #e6d6ff;
+        border: none;
+        font-size: 20px;
+        font-family: "Optima";
+        outline: none;
       }
     </style>
   </head>
   <body>
-    <table>
-      <tr class="categories">
-        <td>Company</td>
-        <td>City</td>
-      </tr>
-    </table>
+    <header>
+      <button type="button">
+        <img src="https://www.materialui.co/materialIcons/action/home_white_192x192.png" style="width:42px;height:42px">
+      </button>
+    </header>
+    <br>
+    <section>
+      <br>
+      <table style="width: 100%;">
+        <tr><td style="width: 90%;">
+          <table style="margin-left: 10%;margin-right:0px;width:90%">
+            <tr>
+              <td class="Filters">
+                TYPE OF VISA
+                <select>
+                  <option value="Select">Select</option>
+                  <option value="H-1B">H-1B</option>
+                  <option value="H-1B1">H-1B1</option>
+                  <option value="H-2A">H-2A</option>
+                  <option value="H-3">H-3</option>
+                  <option value="L">L</option>
+                  <option value="O">O</option>
+                  <option value="P-1">P-1</option>
+                  <option value="P-2">P-2</option>
+                  <option value="P-3">P-3</option>
+                  <option value="Q-1">Q-1</option>
+                </select>
+                <br><br>
+              </td>
+
+              <td class="Filters">
+                <form>
+                  CITY
+                  <input type="text" name=City>
+                </form>
+                <br>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="Filters">
+                <form>
+                  TITLE OF JOB
+                  <input type="text" name=JobTitle>
+                </form>
+              </td>
+
+              <td class="Filters">
+                <form>
+                  COMPANY
+                  <input type="text" name=Company>
+                </form>
+              </td>
+            </tr>
+          </table></td>
+          <td><button type="button">
+            <img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png" style="width:42px;height:42px;"
+          </button></td>
+        </tr>
+      </table>
+      <br>
+    </section>
   </body>
 </html>
