@@ -1,16 +1,3 @@
-html {
-    height: 100%;
-}
-body
-{
-  height: : 100%;
-}
-
-.grey
-{
-  color: rgb(0,0,0) !important;
-}
-
 #filter-button {
   text-align: center;
   padding: 45px;
@@ -27,36 +14,4 @@ body
   margin: 0 !important;
   padding: 8px !important;
   margin-top: .5rem;
-}
-
-.h-100
-{
-  height: 100% !important;
-}
-
-#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fdcc52 !important;
-}
-
-#mainNav .navbar-nav>li>grey:focus:hover, #mainNav .navbar-nav>li>grey:hover {
-  color: #fdcc52 !important;
-}
-#mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-  color: #fdcc52 !important;
-}
-
-#mainNav.navbar-shrink .navbar-nav>li>a, #mainNav.navbar-shrink .navbar-nav>li>a:focus {
-  color: #fdcc52 !important
-}
-
-#mainNav.navbar-shrink .navbar-nav>li>a:focus:hover, #mainNav.navbar-shrink .navbar-nav>li>a:hover {
-  color: #fdcc52 !important;
-}
-#mainNav .navbar-nav>li>a, #mainNav .navbar-nav>li>a:focus {
-    color: #222 !important;
-}
-
-#signin
-{
-  color: #fdcc52;
 }
