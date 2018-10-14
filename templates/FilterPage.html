@@ -2,6 +2,51 @@
 <html>
   <head>
     <style>
+      table {
+        border: none;
+        margin: none;
+      }
+      body {
+        width: 100%;
+        height: 100%;
+        margin-right: 0px;
+        border: 0px;
+        background-image: linear-gradient(to right, #7c0a9b , #fc1919);
+      }
+      button {
+        background: none;
+        border: none;
+        outline: none;
+        font-family: "Optima";
+        color: black;
+        font-size: 16px;
+        text-align: center;
+      }
+      table, tr, td {
+        margin: 0px;
+        border: 0px;
+      }
+      .Filters {
+        font-family: "Optima";
+        font-size: 24px;
+        width: 50%;
+      }
+      select {
+        width: 90%;
+        background-color: #e6d6ff;
+        border: none;
+        font-size: 20px;
+        font-family: "Optima";
+        outline: none;
+      }
+      input {
+        height: 24px;
+        width: 90%;
+        background-color: #e6d6ff;
+        border: none;
+        font-size: 20px;
+        font-family: "Optima";
+        outline: none;
       table{
         border: 50px;
         border-color: black;
@@ -12,12 +57,151 @@
       }
     </style>
   </head>
-  <body>
-    <table>
-      <tr>
-        <td>Company</td>
-        <td>CityAHHHHHHHH</td>
-      </tr>
-    </table>
+  <body style="margin:0px;">
+    <header>
+      <table style="width:100%;">
+        <td>
+          <button type="button">
+            <a href ="\">
+              <img src="https://www.materialui.co/materialIcons/action/home_white_192x192.png" style="width:42px;height:42px">
+            </a>
+          </button>
+
+        </td>
+        <td style="width:130px;margin-right:0px;text-align: center;background:white;">
+          <button type="button">
+            CONTACTS
+          </button>
+        </td>
+        <td style="width:130px;margin-right:0px;text-align: center;background:white;opacity:.3">
+          <button type="button">
+            JOB SEARCH
+          </button>
+        </td>
+        <td style="width:130px;margin-right:0px;text-align: center;background:white;">
+          <button type="button">
+            INFORMATION
+          </button>
+        </td>
+      </table>
+    </header>
+    <br>
+    <section style="margin: auto;width: 90%;background-color: white;border-radius: 206.5px;">
+      <br>
+      <table style="width: 100%;">
+        <tr><td style="width: 90%;">
+          <table style="margin-left: 10%;margin-right:0px;width:90%">
+            <tr>
+              <td class="Filters">
+                TYPE OF VISA
+                <select>
+                  <option value="Select">Select</option>
+                  <option value="H-1B">H-1B</option>
+                  <option value="H-1B1">H-1B1</option>
+                  <option value="H-2A">H-2A</option>
+                  <option value="H-3">H-3</option>
+                  <option value="L">L</option>
+                  <option value="O">O</option>
+                  <option value="P-1">P-1</option>
+                  <option value="P-2">P-2</option>
+                  <option value="P-3">P-3</option>
+                  <option value="Q-1">Q-1</option>
+                </select>
+                <br><br>
+              </td>
+
+              <td class="Filters">
+                <form>
+                  CITY
+                  <input type="text" name=City>
+                </form>
+                <br>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="Filters">
+                <form>
+                  TITLE OF JOB
+                  <input type="text" name=JobTitle>
+                </form>
+              </td>
+
+              <td class="Filters">
+                <form>
+                  COMPANY
+                  <input type="text" name=Company>
+                </form>
+              </td>
+            </tr>
+          </table></td>
+          <td><button type="button">
+            <img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png" style="width:42px;height:42px;"
+          </button></td>
+        </tr>
+      </table>
+      <br>
+    </section>
+    <br><br><br><br><br>
+
+    <!-- Below is this section that needs to be copied and pasted -->
+    <section style="margin: auto;width: 90%;">
+      <table style="width:100%;">
+        <tr style="width:100%;">
+          <td style="width:25%;">
+            <table style="width:100%  ">
+              <tr>
+                <td style="background:white;width:100%;height:40px;">
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <div style="background:white;width:5px;height:100px;margin:auto;margin-top:25px;margin-bottom:25px;border-radius:2.5px;">
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div style="background:white;height:100px;border-radius:50px;width:100px;margin:auto;">
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td >
+                  <div style="background:white;width:5px;height:100px;margin:auto;margin-top:25px;margin-bottom:25px;border-radius:2.5px;">
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+
+          <td style="height:460px;">
+            <table style="margin-left:20%;height:100%;">
+              <tr style="height:40px;">
+                <td>
+                  <h3 style="font-family:'Optima';color:white;height:100%;">
+                    JOB TITLE
+                  </h3>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p style="font-family:'Optima';color:white;">
+                    Job Description
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <button type="button" style="background:white;width:100px;height:25px;">
+                    Website
+                  </button>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </section>
   </body>
 </html>
