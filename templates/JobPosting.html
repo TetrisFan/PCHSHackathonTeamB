@@ -24,7 +24,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/new-age.min.css" rel="stylesheet">
-  <link rel="css/styles.css" rel="stylesheet">
+  <link href="css/Styles.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,900" rel="stylesheet">
 </head>
 
@@ -41,75 +41,83 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#download">Info</a>
+            <a class="nav-link js-scroll-trigger grey" href="#download">Info</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#features">Contact</a>
+            <a class="nav-link js-scroll-trigger grey" href="#features">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Job Post</a>
+            <a class="nav-link js-scroll-trigger grey" href="#contact">Job Post</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <header class="mx-auto h-100 masthead" id = "noBorder">
+        <div class="col-md-5" id = "noBorder">
 
+          <form class="border border-light p-5" id = "noBorder">
 
-  <form class="border border-light p-5">
+            <p class="h4 mb-4 text-center">Sign in</p>
 
-    <p class="h4 mb-4 text-center">Sign in</p>
+            <label for="Company">Company</label>
+            <input type="text" id="Company" class="form-control mb-4" placeholder="ex: Express Scripts">
 
-    <label for="textInput">Job Title</label>
-    <input type="text" id="textInput" class="form-control mb-4" placeholder="Text input">
+            <label for="Job Title">Job Title</label>
+            <input type="text" id="Job Title" class="form-control mb-4" placeholder="ex: Best Job in the World">
 
-    <label for="textInput">Description</label>
-    <input type="text" id="textInput" class="form-control mb-4" placeholder="Text input">
+            <label for="Description">Description</label>
+            <input type="text" id="Description" class="form-control mb-4" placeholder="ex: Money!">
 
-    <label for="textInput">Company</label>
-    <input type="text" id="textInput" class="form-control mb-4" placeholder="Text input">
+            <label for="Company">Company</label>
+            <input type="text" id="Company" class="form-control mb-4" placeholder="ex: Express Scripts">
 
-    <label for="textInput">City</label>
-    <input type="text" id="textInput" class="form-control mb-4" placeholder="Text input">
+            <label for="City">City</label>
+            <input type="text" id="City" class="form-control mb-4" placeholder="ex: St. Louis">
 
-    <label for="select">Default select</label>
-    <select class="browser-default custom-select mb-4" id="select">
-      <option value="" disabled="" selected="">Choose your option</option>
-      <option value="1">Option 1</option>
-      <option value="2">Option 2</option>
-      <option value="3">Option 3</option>
-    </select>
+            <label for="Visa Type">Visa Type</label>
+            <select class="browser-default custom-select mb-4" id="Visa Type">
+              <option value="" disabled="" selected="">ex: H-1b</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+            </select>
 
-    <button class="btn btn-info btn-block my-4" type="submit">Sign in</button>
-  </form>
-  </div>
-  </form>
-  <footer>
-    <div class="container">
-      <p>&copy; Your Website 2018. All Rights Reserved.</p>
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a href="#">Privacy</a>
-        </li>
-        <li class="list-inline-item">
-          <a href="#">Terms</a>
-        </li>
-        <li class="list-inline-item">
-          <a href="#">FAQ</a>
-        </li>
-      </ul>
+            <button class="btn btn-info btn-block my-4" type="submit">Submit</button>
+
+          </form>
+        </div>
+      </div>
+      </header>
+
+      <footer>
+          <p>&copy; Your Website 2018. All Rights Reserved.</p>
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="#">Privacy</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Terms</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+      <!-- Plugin JavaScript -->
+      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+      <!-- Custom scripts for this template -->
+      <script src="js/new-age.min.js"></script>
     </div>
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/new-age.min.js"></script>
-
 </body>
 
 </html>
