@@ -21,6 +21,10 @@ def run():
 def filter():
     return render_template('FilterPage.html')
 
+@app.route('/post')
+def run():
+    return render_template('JobPosting.html')
+
 
 @app.route('/postJob', methods = ['POST'])
 def postJob():
