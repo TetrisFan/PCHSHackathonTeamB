@@ -1,7 +1,6 @@
 #filter-button {
   text-align: center;
-  padding: 45px;
-  margin-left: 50px !important;
+  margin: auto;
 }
 
 #button-header {
@@ -12,7 +11,7 @@
   font-size: 20px;
   line-height: 0px;
   margin: 0 !important;
-  padding: 8px !important;
+  padding: 30px 30px;
   margin-top: .5rem;
 }
 
@@ -20,4 +19,55 @@
 {
   border: none !important;
   margin: auto;
+}
+
+.text-left
+{
+  text-align: left !important;
+}
+
+.cont
+{
+  z-index: -100 !important;
+}
+
+.z-index-back
+{
+  z-index: : -100 !important;
+}
+.no-min-height
+{
+  min-height: 0 !important;
+  height: auto;
+}
+
+.masthead
+{
+  height: 100% !important;
+}
+
+.min-height-275
+{
+  min-height: 275px;
+}
+
+.padding-0
+{
+  padding: 0 !important;
+}
+
+.padding-56
+{
+  padding: 56px !important;
+}
+
+.margin-left-50
+{
+  margin: 0px 56px !important;
+}
+
+.size-50
+{
+  width: 50px !important;
+  height: 20px !important;
 }
