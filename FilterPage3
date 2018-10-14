@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Immigrantion Cube</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/new-age.min.css" rel="stylesheet">
+  <link href="css/Styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,900" rel="stylesheet">
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="HomePage.html">Immigrantion Cube</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger grey" href="FilterPage.html">Search</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger grey" href="info.html">Info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger grey" href="JobPosting.html">Job Post</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <header class="mx-auto h-100 masthead" id = "noBorder">
+        <div class="col-md-5" id = "noBorder">
+
+          <form class="border border-light p-5" id = "noBorder">
+
+            <p class="h4 mb-4 text-center">Search</p>
+
+            <label for="Company">Company</label>
+            <input type="text" id="Company" class="form-control mb-4" placeholder="ex: Express Scripts">
+
+            <label for="Job Title">Job Title</label>
+            <input type="text" id="Job Title" class="form-control mb-4" placeholder="ex: Best Job in the World">
+
+            <label for="Description">Description</label>
+            <input type="text" id="Description" class="form-control mb-4" placeholder="ex: Money!">
+            <label for="City">City</label>
+            <input type="text" id="City" class="form-control mb-4" placeholder="ex: St. Louis">
+
+            <label for="Visa Type">Visa Type</label>
+            <select class="browser-default custom-select mb-4" id="Visa Type">
+              <option value="" disabled="" selected="">ex: H-1b</option>
+              <option value="1">H-1B</option>
+              <option value="2">H-1B1</option>
+              <option value="3">H-2A</option>
+              <option value="3">H-3</option>
+              <option value="3">L</option>
+              <option value="3">O</option>
+              <option value="3">P-1</option>
+              <option value="3">P-2</option>
+              <option value="3">P-3</option>
+              <option value="3">Q-1</option>
+
+            </select>
+            <a href="FilterPage4.html">
+              <a class="btn btn-info btn-block my-4" href="FilterPage4.html">Submit</a>
+            </a>
+          </form>
+        </div>
+      </div>
+      </header>
+
+      <section class="features padding-0" id="features">
+        <div class="container padding-56 border-box">
+          <div class="section-heading text-left padding-0">
+            <br>
+            <br>
+            <h2>Search Results</h2>
+            <br>
+            <h3>Enterprise</h3>
+            <p class="text-muted">
+              Title: Level 1 Developer
+            </p>
+            <p class="text-muted">
+              Description: Good people, Fun atmosphere.
+            </p>
+            <p class="text-muted">
+              City: St. Louis
+            </p>
+            <p class="text-muted">
+              Visa Type: H-1B
+            </p>
+            <br>
+
+            <h3>Express Scripts</h3>
+            <p class="text-muted">
+              Title: Senior Developer
+            </p>
+            <p class="text-muted">
+              Description: Candy
+            </p>
+            <p class="text-muted">
+              City: St. Louis
+            </p>
+            <p class="text-muted">
+              Visa Type: H-1B
+            </p>
+            <br>
+
+            <h3>Q Division</h3>
+            <p class="text-muted">
+              Title: Software Architect
+            </p>
+            <p class="text-muted">
+              Description: Good, free water bottles
+            </p>
+            <p class="text-muted">
+              City: St. Louis
+            </p>
+            <p class="text-muted">
+              Visa Type: L-1
+            </p>
+            <br>
+
+            <h3>Bayer</h3>
+            <p class="text-muted">
+              Title: Reasarcher
+            </p>
+            <p class="text-muted">
+              Description: Gene therapy
+            </p>
+            <p class="text-muted">
+              City: St. Louis
+            </p>
+            <p class="text-muted">
+              Visa Type: H-1B
+            </p>
+            <br>
+
+            <h3>World Wide Technology</h3>
+            <p class="text-muted">
+              Title: Front End Developer
+            </p>
+            <p class="text-muted">
+              Description: We have tents at the office
+            </p>
+            <p class="text-muted">
+              City: St. Louis
+            </p>
+            <p class="text-muted">
+              Visa Type: H-1B
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+      <!-- Plugin JavaScript -->
+      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+      <!-- Custom scripts for this template -->
+      <script src="js/new-age.min.js"></script>
+    </div>
+</body>
+
+</html>
