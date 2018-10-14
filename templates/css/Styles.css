@@ -1,0 +1,17 @@
+#filter-button {
+  text-align: center;
+  padding: 45px;
+  margin-left: 50px !important;
+}
+
+#button-header {
+  margin: auto;
+}
+
+#button-content {
+  font-size: 20px;
+  line-height: 0px;
+  margin: 0 !important;
+  padding: 8px !important;
+  margin-top: .5rem;
+}
