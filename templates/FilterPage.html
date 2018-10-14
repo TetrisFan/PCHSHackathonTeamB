@@ -1,212 +1,116 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <style>
-      table {
-        border: none;
-        margin: none;
-      }
-      body {
-        width: 100%;
-        height: 100%;
-        margin-right: 0px;
-        border: 0px;
-        background-image: linear-gradient(to right, #f10000, #882d97);
-      }
-      button {
-        background: none;
-        border: none;
-        outline: none;
-        font-family: "Optima";
-        color: black;
-        font-size: 16px;
-        text-align: center;
-      }
-      table, tr, td {
-        margin: 0px;
-        border: 0px;
-      }
-      .Filters {
-        font-family: "Optima";
-        font-size: 24px;
-        width: 50%;
-      }
-      select {
-        width: 90%;
-        background-color: #e6d6ff;
-        border: none;
-        font-size: 20px;
-        font-family: "Optima";
-        outline: none;
-      }
-      input {
-        height: 24px;
-        width: 90%;
-        background-color: #e6d6ff;
-        border: none;
-        font-size: 20px;
-        font-family: "Optima";
-        outline: none;
-      table{
-        border: 50px;
-        border-color: black;
-        color: white;
-        background-color: #4CAF50;
-        height: 50px;
-        width: %;
-      }
-    </style>
-  </head>
-  <body style="margin:0px;">
-    <header>
-      <table style="width:100%;">
-        <td>
-          <button type="button">
-            <a href ="localhost:5000">
-              <img src="https://www.materialui.co/materialIcons/action/home_white_192x192.png" style="width:42px;height:42px">
-            </a>
-          </button>
+<!DOCTYPE HTML>
+<html lang="en">
 
-        </td>
-        <td style="width:130px;margin-right:0px;text-align: center;background:white;">
-          <a href ="localhost:5000/contacts">
-            <button type="button">
-              CONTACTS
-            </button>
-          </a>
-        </td>
-        <td style="width:130px;margin-right:0px;text-align: center;background:white;opacity:.3">
-          <a href ="localhost:5000/post">
-            <button type="button">
-              JOB SEARCH
-            </button>
-        </td>
-        <td style="width:130px;margin-right:0px;text-align: center;background:white;">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-            <button type="button">
-              INFORMATION
-            </button>
+  <title>New Age - Start Bootstrap Theme</title>
 
-        </td>
-      </table>
-    </header>
-    <br>
-    <section style="margin: auto;width: 90%;background-color: white;border-radius: 206.5px;">
-      <br>
-      <table style="width: 100%;">
-        <tr><td style="width: 90%;">
-          <table style="margin-left: 10%;margin-right:0px;width:90%">
-            <tr>
-              <td class="Filters">
-                TYPE OF VISA
-                <select>
-                  <option value="Select">Select</option>
-                  <option value="H-1B">H-1B</option>
-                  <option value="H-1B1">H-1B1</option>
-                  <option value="H-2A">H-2A</option>
-                  <option value="H-3">H-3</option>
-                  <option value="L">L</option>
-                  <option value="O">O</option>
-                  <option value="P-1">P-1</option>
-                  <option value="P-2">P-2</option>
-                  <option value="P-3">P-3</option>
-                  <option value="Q-1">Q-1</option>
-                </select>
-                <br><br>
-              </td>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-              <td class="Filters">
-                <form>
-                  CITY
-                  <input type="text" name=City>
-                </form>
-                <br>
-              </td>
-            </tr>
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
-            <tr>
-              <td class="Filters">
-                <form>
-                  TITLE OF JOB
-                  <input type="text" name=JobTitle>
-                </form>
-              </td>
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
 
-              <td class="Filters">
-                <form>
-                  COMPANY
-                  <input type="text" name=Company>
-                </form>
-              </td>
-            </tr>
-          </table></td>
-          <td><button type="button">
-            <img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png" style="width:42px;height:42px;"
-          </button></td>
-        </tr>
-      </table>
-      <br>
-    </section>
-    <br><br><br><br><br>
+  <!-- Custom styles for this template -->
+  <link href="css/new-age.min.css" rel="stylesheet">
+  <link href="css/Styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,900" rel="stylesheet">
+</head>
 
-    <!-- Below is this section that needs to be copied and pasted -->
-    <section style="margin: auto;width: 90%;">
-      <table style="width:100%;">
-        <tr style="width:100%;">
-          <td style="width:25%;">
-            <table style="width:100%  ">
-              <tr>
-                <td style="background:white;width:100%;height:40px;">
-                </td>
-              </tr>
-              <tr>
-                <td >
-                  <div style="background:white;width:5px;height:100px;margin:auto;margin-top:25px;margin-bottom:25px;border-radius:2.5px;">
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div style="background:white;height:100px;border-radius:50px;width:100px;margin:auto;">
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td >
-                  <div style="background:white;width:5px;height:100px;margin:auto;margin-top:25px;margin-bottom:25px;border-radius:2.5px;">
-                  </div>
-                </td>
-              </tr>
-            </table>
-          </td>
+<body id="page-top">
 
-          <td style="height:460px;">
-            <table style="height:100%;width:100%;">
-              <tr style="height:40px;">
-                <td>
-                  <h3 style="font-family:'Optima';color:white;height:100%;margin-left:10%">
-                    JOB TITLE
-                  </h3>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p style="font-family:'Optima';color:white;margin-left:20%">
-                    Job Description
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <button type="button" style="background:white;width:100px;height:25px;margin-left:10%">
-                    Website
-                  </button>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-    </section>
-  </body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="HomePage.html">Start Bootstrap</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger grey" href="FilterPage.html">Search</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger grey" href="info.html">Info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger grey" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger grey" href="JobPosting.html">Job Post</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <header class="mx-auto h-100 masthead" id = "noBorder">
+        <div class="col-md-5" id = "noBorder">
+
+          <form class="border border-light p-5" id = "noBorder">
+
+            <p class="h4 mb-4 text-center">Search</p>
+
+            <label for="Company">Company</label>
+            <input type="text" id="Company" class="form-control mb-4" placeholder="ex: Express Scripts">
+
+            <label for="Job Title">Job Title</label>
+            <input type="text" id="Job Title" class="form-control mb-4" placeholder="ex: Best Job in the World">
+
+            <label for="Description">Description</label>
+            <input type="text" id="Description" class="form-control mb-4" placeholder="ex: Money!">
+            <label for="City">City</label>
+            <input type="text" id="City" class="form-control mb-4" placeholder="ex: St. Louis">
+
+            <label for="Visa Type">Visa Type</label>
+            <select class="browser-default custom-select mb-4" id="Visa Type">
+              <option value="" disabled="" selected="">ex: H-1b</option>
+              <option value="1">H-1B</option>
+              <option value="2">H-1B1</option>
+              <option value="3">H-2A</option>
+              <option value="3">H-3</option>
+              <option value="3">L</option>
+              <option value="3">O</option>
+              <option value="3">P-1</option>
+              <option value="3">P-2</option>
+              <option value="3">P-3</option>
+              <option value="3">Q-1</option>
+
+            </select>
+
+            <button class="btn btn-info btn-block my-4" type="submit">Submit</button>
+
+          </form>
+        </div>
+      </div>
+      </header>
+      <div class = "row" style = "width: 100%;">
+    </div>
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+      <!-- Plugin JavaScript -->
+      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+      <!-- Custom scripts for this template -->
+      <script src="js/new-age.min.js"></script>
+    </div>
+</body>
+
 </html>
