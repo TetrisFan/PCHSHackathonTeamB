@@ -1,5 +1,5 @@
 {
-	"dummyPost": 
+	"dummyJob": 
 		{
 			"title": "",
 			"postDate": {"day": 0, "month": 0, "year": 0},
@@ -7,5 +7,5 @@
 			"address": "",
 			"company": ""
 		},
-	"visa": 0
+	"visa": ""
 }
