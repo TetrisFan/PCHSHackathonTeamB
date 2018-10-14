@@ -16,10 +16,13 @@ sql.init_app(app)
 def run():
     return render_template('HomePage.html')
 
-
 @app.route('/search')
 def filter():
     return render_template('FilterPage.html')
+
+@app.route('/post')
+def jobPostPage():
+    return render_template('JobPosting.html')
 
 
 @app.route('/postJob', methods = ['POST'])

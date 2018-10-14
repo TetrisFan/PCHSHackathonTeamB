@@ -11,7 +11,7 @@
         height: 100%;
         margin-right: 0px;
         border: 0px;
-        background-image: linear-gradient(to right, #7c0a9b , #fc1919);
+        background-image: linear-gradient(to right, #f10000, #882d97);
       }
       button {
         background: none;
@@ -62,26 +62,31 @@
       <table style="width:100%;">
         <td>
           <button type="button">
-            <a href ="\">
+            <a href ="localhost:5000">
               <img src="https://www.materialui.co/materialIcons/action/home_white_192x192.png" style="width:42px;height:42px">
             </a>
           </button>
 
         </td>
         <td style="width:130px;margin-right:0px;text-align: center;background:white;">
-          <button type="button">
-            CONTACTS
-          </button>
+          <a href ="localhost:5000/contacts">
+            <button type="button">
+              CONTACTS
+            </button>
+          </a>
         </td>
         <td style="width:130px;margin-right:0px;text-align: center;background:white;opacity:.3">
-          <button type="button">
-            JOB SEARCH
-          </button>
+          <a href ="localhost:5000/post">
+            <button type="button">
+              JOB SEARCH
+            </button>
         </td>
         <td style="width:130px;margin-right:0px;text-align: center;background:white;">
-          <button type="button">
-            INFORMATION
-          </button>
+
+            <button type="button">
+              INFORMATION
+            </button>
+
         </td>
       </table>
     </header>
@@ -176,24 +181,24 @@
           </td>
 
           <td style="height:460px;">
-            <table style="margin-left:20%;height:100%;">
+            <table style="height:100%;width:100%;">
               <tr style="height:40px;">
                 <td>
-                  <h3 style="font-family:'Optima';color:white;height:100%;">
+                  <h3 style="font-family:'Optima';color:white;height:100%;margin-left:10%">
                     JOB TITLE
                   </h3>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p style="font-family:'Optima';color:white;">
+                  <p style="font-family:'Optima';color:white;margin-left:20%">
                     Job Description
                   </p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <button type="button" style="background:white;width:100px;height:25px;">
+                  <button type="button" style="background:white;width:100px;height:25px;margin-left:10%">
                     Website
                   </button>
                 </td>
