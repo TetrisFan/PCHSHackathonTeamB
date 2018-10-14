@@ -33,14 +33,12 @@ def postJob():
     for key in jobKeys[1:]:
         jobInfo[key] = '"' + jobInfo[key] + '"'
     jobInfo = (',').join([jobInfo[key] for key in jobKeys])
-    print(jobInfo)
     conn = sql.connect()
     cursor = conn.cursor()
     cursor.execute("INSERT INTO Job (siteName) VALUES (\"dummySite\")")
     cursor.fetchall()
     cursor.execute("SELECT MAX(id) AS id FROM Job")
     id = cursor.fetchall()[0][0]
-    print("sdlkfjsldkjflsdjkf    " + str(id) + "   sadlkfjs;dlkafj")
     cursor.execute('INSERT INTO JobVisa (visaType, jobId) VALUES ("' + visaType + '", ' + str(id) + ")")
     cursor.execute('''INSERT INTO
         Dummy (jobId, postDate, title, description, address, company)
